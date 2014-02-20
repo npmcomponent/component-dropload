@@ -3,10 +3,10 @@
  * Module dependencies.
  */
 
-var Emitter = require('emitter')
-  , classes = require('classes')
-  , Upload = require('upload')
-  , events = require('events')
+var Emitter = require('component-emitter')
+  , classes = require('component-classes')
+  , Upload = require('component-upload')
+  , events = require('component-events')
 
 /**
  * Expose `Dropload`.
